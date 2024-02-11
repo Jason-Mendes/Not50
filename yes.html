@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <link rel="stylesheet" href="./yes_style.css">
-  </head>
-  <body>
-    <div class="container">
-      <div>
+</head>
+<body>
+<div class="container">
+    <div>
         <h1 class="header_text">Yeeeyyyy!!</h1>
-      <div >
-          <img src="https://media0.giphy.com/media/T86i6yDyOYz7J6dPhf/giphy.gif" alt="Cute animated illustration">
-      </div>
-      <div class="gif_container">
-        <img src="https://github.com/Jason-Mendes/valentines_day/blob/main/Rose.gif" alt="ASCHII Rose">
-      </div>
-      <div class="buttons">
-        <button class="btn" id="sendanswerButton" onclick="nextPage()">Send</button> </div>
-      <form id="emailForm" method="POST" action="mailto:jasontomendes@icloud.com" enctype="text/plain"> <input type="hidden" name="subject" value="Date Request Response">
-        <input type="hidden" name="body" value="I'd love to go out with you!">
-      </form>
     </div>
-  </body>
-  <script>
+    <div>
+        <img src="https://media0.giphy.com/media/T86i6yDyOYz7J6dPhf/giphy.gif" alt="Cute animated illustration">
+    </div>
+    <div class="gif_container">
+        <!-- Make sure to replace this URL with the raw image URL from GitHub -->
+        <img src="https://github.com/Jason-Mendes/valentines_day/blob/main/Rose.gif" alt="ASCII Rose">
+    </div>
+    <div class="buttons">
+        <button class="btn" id="sendanswerButton" onclick="nextPage()">Send</button>
+    </div>
+    <form id="emailForm" method="POST" action="mailto:jasontomendes@icloud.com">
+        <input type="hidden" name="subject" value="Date Request Response">
+        <input type="hidden" name="body" value="I'd love to go out with you!">
+    </form>
+</div>
+<script>
     function nextPage() {
-      setTimeout(() => {
-        document.getElementById("emailForm").submit(); // Submit the form after a delay
-      }, 0);
+        document.getElementById("emailForm").submit(); // Submit the form immediately
     }
-  </script>
+</script>
+</body>
 </html>
