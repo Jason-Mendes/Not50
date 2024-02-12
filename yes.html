@@ -5,17 +5,11 @@
 </head>
 <body>
 <div class="container">
-    <div>
-        <h1 class="header_text">Yeeeyyyy!!</h1>
-    </div>
-    <div>
+    <h1 class="header_text">Yeeeyyyy!!</h1>
+    <div class="image-container">
         <img src="https://media0.giphy.com/media/T86i6yDyOYz7J6dPhf/giphy.gif" alt="Cute animated illustration">
+        <img src="https://raw.githubusercontent.com/Jason-Mendes/valentines_day/main/noimage.png" alt="ASCII Rose">
     </div>
-   <div class="gif_container">
-    <!-- Make sure to use the raw image URL from GitHub -->
-<div>
- <img src="https://raw.githubusercontent.com/Jason-Mendes/valentines_day/main/noimage.png" alt="ASCII Rose">
-</div>
     <div class="buttons">
         <button class="btn" id="sendanswerButton" onclick="nextPage()">Send</button>
     </div>
@@ -26,7 +20,7 @@
 </div>
 <script>
     function nextPage() {
-        document.getElementById("emailForm").submit(); // Submit the form immediately
+        document.getElementById("emailForm").submit();
     }
 </script>
 </body>
