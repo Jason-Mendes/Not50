@@ -36,7 +36,7 @@ body {
 
 
 .gif_container, .image-container img {
-    margin: 0 10px; /* Adjust spacing between images */
+    margin: 0 5px; /* Adjust spacing between images */
 }
 
 .buttons {
