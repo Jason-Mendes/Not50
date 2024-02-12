@@ -27,7 +27,7 @@ body {
 
 .gif-size {
     width: 400px; /* Or any size you prefer */
-    height: auto; /* Maintains aspect ratio */
+    height: 400px; /* Maintains aspect ratio */
 }
 .image-size {
     width: 200px; /* Or any size you prefer */
