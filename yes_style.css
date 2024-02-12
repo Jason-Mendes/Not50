@@ -33,7 +33,7 @@ body {
     width: 200px; /* Or any size you prefer */
     height: auto; /* Maintains aspect ratio */
      position: relative;
-    top: 20px; /* Moves the image down 10px from its normal position */
+    top: 40px; /* Moves the image down 10px from its normal position */
     left: -100px; /* Moves the image right 10px from its normal position */
 }
 
