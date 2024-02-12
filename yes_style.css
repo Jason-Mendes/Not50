@@ -3,7 +3,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #a80d0d;
+    background-color: #000000;
+;
 }
 
 .header_text {
