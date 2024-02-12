@@ -26,8 +26,8 @@ body {
 }
 
 .gif-size {
-    width: 600px; /* Or any size you prefer */
-    height: 600px; /* Maintains aspect ratio */
+    width: 500px; /* Or any size you prefer */
+    height: 500px; /* Maintains aspect ratio */
 }
 .image-size {
     width: 200px; /* Or any size you prefer */
