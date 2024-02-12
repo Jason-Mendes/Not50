@@ -25,6 +25,16 @@ body {
     align-items: center;
 }
 
+.gif-size {
+    width: 200px; /* Or any size you prefer */
+    height: auto; /* Maintains aspect ratio */
+}
+.image-size {
+    width: 200px; /* Or any size you prefer */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
 .gif_container, .image-container img {
     margin: 0 10px; /* Adjust spacing between images */
 }
